@@ -1,0 +1,543 @@
+rm: cannot remove '/etc/post-install/01-devices.post': Permission
+rm: cannot remove '/etc/post-install/03-mtab.post': Permission de
+rm: cannot remove '/etc/post-install/06-windows-files.post': Perm
+rm: cannot remove '/etc/post-install/99-post-install-cleanup.postenied
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~
+$ cd
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~
+$
+
+bash: Lenovo@DESKTOP-TQQDJP2: command not found
+bash: $: command not found
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Doctor\ Web
+Documents
+Downloads
+Favorites
+IntelGraphicsProfiles
+Links
+Local\ Settings
+MicrosoftEdgeBackups
+Music
+NTUSER.DAT
+NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000.regtrans-ms
+NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000.regtrans-ms
+NetHood
+OneDrive
+PrintHood
+Recent
+Saved\ Games
+Searches
+SendTo
+Videos
+ansel
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+Мои\ документы
+Шаблоны
+главное\ меню
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~
+$ cd onedrive
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive
+$ cd Рабочий стол
+bash: cd: too many arguments
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive
+$ cd onedrive
+bash: cd: onedrive: No such file or directory
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive
+$ dir
+desktop.ini       Жанарыс\ Сагындык\ 10А.docx      Сагындык\ Жана
+Документ\ 1.docx  Изображения                      Сагындык\ Жана
+Документ\ 3.docx  Личное\ хранилище.lnk            Сағындық\ Жана
+Документ.docx     Начало\ работы\ с\ OneDrive.pdf  Хаким\ Камилла
+Документы         Рабочий\ стол
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive
+$ cd Рабочий\ стол
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол
+$ cd git_tutorial
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori
+$ cd work
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori
+$ touch hello.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori
+$ git init
+Initialized empty Git repository in C:/Users/Lenovo/OneDrive/Рабоtorial/work/.git/
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ git add hello.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ git commit -m "First Commit"
+[master (root-commit) 10a9f71] First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ touch one.py
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        one.py
+
+nothing added to commit but untracked files present (use "git add
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working dire
+        modified:   hello.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        one.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working dire
+        modified:   hello.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ git add hello.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutori)
+$ touch {a.html,b.html}
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit -m "first commit"
+[master 70e907d] first commit
+ 1 file changed, 1 insertion(+)
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ touch c.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit -m "second commit"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        a.html
+        b.html
+        c.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git add a.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git add b.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit -m "first commit"
+[master 3c7290b] first commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.html
+ create mode 100644 b.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git add c.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit -m "second commit"
+[master d3985cf] second commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 c.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git add a.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git add b.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit -m "Changes for a and b"
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git add c.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit -m "Unrelated change to c"
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git add hello.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit -m "Added standard HTML page tags"
+[master a728c3c] Added standard HTML page tags
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git add .
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git commit -m "Added HTML header"
+[master 8e4027c] Added HTML header
+ 1 file changed, 2 insertions(+)
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git log
+commit 8e4027c84459e1eb1471b8188dca517a4935e260 (HEAD -> master)
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:56:12 2023 +0600
+
+    Added HTML header
+
+commit a728c3c5cd28475be02d67daee5d945e252e55a8
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:55:02 2023 +0600
+
+    Added standard HTML page tags
+
+commit d3985cfcaa71ecf42abc7bc92d9b80ad0ac94759
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:51:01 2023 +0600
+
+commit 8e4027c84459e1eb1471b8188dca517a4935e260 (HEAD -> master)
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:56:12 2023 +0600
+
+    Added HTML header
+
+commit a728c3c5cd28475be02d67daee5d945e252e55a8
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:55:02 2023 +0600
+
+    Added standard HTML page tags
+
+commit d3985cfcaa71ecf42abc7bc92d9b80ad0ac94759
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:51:01 2023 +0600
+
+commit 8e4027c84459e1eb1471b8188dca517a4935e260 (HEAD -> master)
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:56:12 2023 +0600
+
+    Added HTML header
+
+commit a728c3c5cd28475be02d67daee5d945e252e55a8
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:55:02 2023 +0600
+
+    Added standard HTML page tags
+
+commit d3985cfcaa71ecf42abc7bc92d9b80ad0ac94759
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:51:01 2023 +0600
+
+commit 8e4027c84459e1eb1471b8188dca517a4935e260 (HEAD -> master)
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:56:12 2023 +0600
+
+    Added HTML header
+
+commit a728c3c5cd28475be02d67daee5d945e252e55a8
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:55:02 2023 +0600
+
+    Added standard HTML page tags
+
+commit d3985cfcaa71ecf42abc7bc92d9b80ad0ac94759
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:51:01 2023 +0600
+
+commit 8e4027c84459e1eb1471b8188dca517a4935e260 (HEAD -> master)
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:56:12 2023 +0600
+
+    Added HTML header
+
+commit a728c3c5cd28475be02d67daee5d945e252e55a8
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:55:02 2023 +0600
+
+    Added standard HTML page tags
+
+commit d3985cfcaa71ecf42abc7bc92d9b80ad0ac94759
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:51:01 2023 +0600
+
+    second commit
+
+commit 3c7290b2b0064356b3ea564083aed854cf8f515f
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:50:53 2023 +0600
+
+    first commit
+
+commit 70e907d3301ab1a16d6ad5f2f49578d04bdb7a7e
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:50:00 2023 +0600
+
+    first commit
+
+commit 10a9f714b84526eac15fbb0d961503358ad664ff
+Author: Zhanarys <sagyndykjanarys08@gmail.com>
+Date:   Tue Jan 24 13:43:04 2023 +0600
+
+    First Commit
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git log --all --pretty=format:"%h %cd %s (%an)" --since='7 days ago'
+8e4027c Tue Jan 24 13:56:12 2023 +0600 Added HTML header (Zhanarys)
+a728c3c Tue Jan 24 13:55:02 2023 +0600 Added standard HTML page tags (Zhanarys)
+d3985cf Tue Jan 24 13:51:01 2023 +0600 second commit (Zhanarys)
+3c7290b Tue Jan 24 13:50:53 2023 +0600 first commit (Zhanarys)
+70e907d Tue Jan 24 13:50:00 2023 +0600 first commit (Zhanarys)
+10a9f71 Tue Jan 24 13:43:04 2023 +0600 First Commit (Zhanarys)
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+* 8e4027c 2023-01-24 | Added HTML header (HEAD -> master) [Zhanarys]
+* a728c3c 2023-01-24 | Added standard HTML page tags [Zhanarys]
+* d3985cf 2023-01-24 | second commit [Zhanarys]
+* 3c7290b 2023-01-24 | first commit [Zhanarys]
+* 70e907d 2023-01-24 | first commit [Zhanarys]
+* 10a9f71 2023-01-24 | First Commit [Zhanarys]
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+git config --global alias.type 'cat-file -t'
+git config --global alias.dump 'cat-file -p'
+
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git st
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ touch .gitconfig
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ gco <branch>
+bash: syntax error near unexpected token `newline'
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git hist
+* 8e4027c 2023-01-24 | Added HTML header (HEAD -> master) [Zhanarys]
+* a728c3c 2023-01-24 | Added standard HTML page tags [Zhanarys]
+* d3985cf 2023-01-24 | second commit [Zhanarys]
+* 3c7290b 2023-01-24 | first commit [Zhanarys]
+* 70e907d 2023-01-24 | first commit [Zhanarys]
+* 10a9f71 2023-01-24 | First Commit [Zhanarys]
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git checkout <hash>
+bash: syntax error near unexpected token `newline'
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ ^C
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ gco 10a9f71
+bash: gco: command not found
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git checkout 10a9f71
+Note: switching to '10a9f71'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 10a9f71 First Commit
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((10a9f71...))
+$ cat hello.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((10a9f71...))
+$ cat hello.html
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((10a9f71...))
+$ gco 10a9f71
+bash: gco: command not found
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((10a9f71...))
+$ git checkout master
+Previous HEAD position was 10a9f71 First Commit
+Switched to branch 'master'
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git tag v1
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work (master)
+$ git checkout v1^
+Note: switching to 'v1^'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a728c3c Added standard HTML page tags
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((a728c3c...))
+$ cat hello.html
+<html>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((a728c3c...))
+$ git tag v1-beta
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((v1-beta))
+$ git checkout v1
+Previous HEAD position was a728c3c Added standard HTML page tags
+HEAD is now at 8e4027c Added HTML header
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((v1))
+$ git checkout v1-beta
+Previous HEAD position was 8e4027c Added HTML header
+HEAD is now at a728c3c Added standard HTML page tags
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((v1-beta))
+$ git tag
+v1
+v1-beta
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((v1-beta))
+$ git hist master --all
+* 8e4027c 2023-01-24 | Added HTML header (tag: v1, master) [Zhanarys]
+* a728c3c 2023-01-24 | Added standard HTML page tags (HEAD, tag: v1-beta) [Zhanarys]
+* d3985cf 2023-01-24 | second commit [Zhanarys]
+* 3c7290b 2023-01-24 | first commit [Zhanarys]
+* 70e907d 2023-01-24 | first commit [Zhanarys]
+* 10a9f71 2023-01-24 | First Commit [Zhanarys]
+
+Lenovo@DESKTOP-TQQDJP2 MINGW64 ~/onedrive/Рабочий стол/git_tutorial/work ((v1-beta))
+$ git
+
